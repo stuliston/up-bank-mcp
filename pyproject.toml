@@ -1,0 +1,13 @@
+[project]
+name = "up-mcp-server"
+version = "0.1.0"
+description = "MCP Server for Up Bank API"
+dependencies = [
+    "mcp",
+    "requests",
+    "python-dotenv"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
